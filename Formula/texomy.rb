@@ -6,8 +6,10 @@ class Texomy < Formula
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.3/texomy-macos-arm64.tar.gz"
-    sha256 "aa72c6cf46a851b4709f4372fbd582e448eedc6726f91c959653c69dee43bac1"
+    on_arm do
+      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.3/texomy-macos-arm64.tar.gz"
+      sha256 "aa72c6cf46a851b4709f4372fbd582e448eedc6726f91c959653c69dee43bac1"
+    end
   end
 
   on_linux do
