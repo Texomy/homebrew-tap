@@ -1,26 +1,26 @@
 class Texomy < Formula
   desc "Extract typed JSON from text with Texomy specs"
   homepage "https://texomy.com"
-  version "1.0.0-rc.6"
+  version "1.0.0-rc.7"
 
   on_macos do
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.6/texomy-macos-arm64.tar.gz"
-      sha256 "98d0d2f001985c9b726cf7fe8829514e9424490515fed2371ee799a25225543b"
+      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.7/texomy-macos-arm64.tar.gz"
+      sha256 "78305854263cf645069aaadb0991e45cfbffde88540f9d6bc9df3e99808d1ad6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.6/texomy-linux-x64.tar.gz"
-      sha256 "8e4d833a00bc3358717e1e7b16b225d80bdc0fd42551eb9b72421f8445ec646b"
+      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.7/texomy-linux-x64.tar.gz"
+      sha256 "b0e782dcc980d951082b662a3216276580cdb1682f4c0e965d174288dff408ad"
     end
 
     on_arm do
-      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.6/texomy-linux-arm64.tar.gz"
-      sha256 "83f9ad9056187b009b9735df815dfe2274879643218eedc69e392ea119eb528a"
+      url "https://github.com/Texomy/texomy-releases/releases/download/v1.0.0-rc.7/texomy-linux-arm64.tar.gz"
+      sha256 "b0522ed4130a38e2d7b8523e0761f5b94c52d10044807ef59639fa32d91d7baa"
     end
   end
 
